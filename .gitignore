@@ -13,4 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
-screenshotTest/reference
+**/screenshotTest/reference
