@@ -13,4 +13,4 @@ jobs:
           name: Run screenshotbot on all sub-modules
           # This Gradle task is created from the
           # io.screenshotbot.gradle plugin.
-          command: ./gradlew recordAndVerifyDebugScreenshotTests
+          command: ./gradlew recordAndVerifyDebugScreenshotTest
