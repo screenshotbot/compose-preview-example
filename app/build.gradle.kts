@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.screenshot)
-    id("io.screenshotbot.plugin") version "1.13"
+    id("io.screenshotbot.plugin") version "1.29.2"
 }
 
 android {
