@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.screenshot)
-    id("io.screenshotbot.plugin") version "1.29.2"
+    id("io.screenshotbot.plugin") version "1.29.4"
 }
 
 android {
