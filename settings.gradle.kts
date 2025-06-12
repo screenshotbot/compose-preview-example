@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "BlogApplication"
 include(":app")
+include(":app-without-screenshots")
