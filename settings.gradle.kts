@@ -7,6 +7,10 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
+        maven {
+            url = uri("/home/arnold/builds/screenshotbot-gradle/localRepo")
+        }
+
         mavenCentral()
         gradlePluginPortal()
     }
