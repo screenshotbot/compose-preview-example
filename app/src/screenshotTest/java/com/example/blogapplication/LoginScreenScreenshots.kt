@@ -95,6 +95,15 @@ class LoginScreenScreenshots {
             LoginScreenWithPredefinedData()
         }
     }
+
+    @PreviewTest
+    @Preview(name = "Login Screen - Error State Dark Mode", showBackground = true, widthDp = 360, heightDp = 640)
+    @Composable
+    fun LoginScreenErrorStateDarkModeScreenshot() {
+        BlogApplicationTheme(darkTheme = true) {
+            LoginScreenWithError()
+        }
+    }
 }
 
 @Composable
