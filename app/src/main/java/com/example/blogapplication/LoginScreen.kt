@@ -119,7 +119,8 @@ fun LoginScreen(
                         placeholder = { Text("Enter your email") },
                         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
                         modifier = Modifier.fillMaxWidth(),
-                        singleLine = true
+                        singleLine = true,
+                        shape = RoundedCornerShape(12.dp)
                     )
                     
                     OutlinedTextField(
@@ -138,7 +139,8 @@ fun LoginScreen(
                             }
                         },
                         modifier = Modifier.fillMaxWidth(),
-                        singleLine = true
+                        singleLine = true,
+                        shape = RoundedCornerShape(12.dp)
                     )
                     
                     Row(
